@@ -1,0 +1,70 @@
+.horizontal {
+    display: flex;
+    margin: 20px;
+    width: calc(100vw - 90px);
+    font-size: 1.1rem;
+    border: 3px solid #eaebef;
+    border-radius: 16px;
+    padding: 20px;
+    color: #3d8584;
+    font-weight: 700px;
+  }
+
+  .logo {
+    margin-left: 20px;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .link {
+    text-decoration: none;
+    width: 200px;
+    padding: 10px 0;
+    margin: 20px 0;
+    background-color: #3d8584;
+    color: white; 
+    font-weight: 700;
+    text-align: center;
+    border-radius: 16px;
+    border: 2px solid #3d8584;
+    font-size: 1.2rem;
+  }
+
+  .link:hover {
+    background-color: #c6f3f2;
+    color: #3d8584; 
+    border: 2px solid #3d8584;
+  }
+
+  .imgContainer {
+    border-radius: 15px;
+    background-color: #eaebef;
+    height: 220px;
+    min-width: 280px;
+  }
+
+  .productContent {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .productTitle {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-weight: 600;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+
+  .desc {
+    word-wrap: break-word; /* позволяет тексту переноситься на новую строку, если он не помещается */
+    overflow: hidden; /* скрывает текст, который не помещается в контейнер */
+    max-width: 100%; /* ограничивает ширину текста до 100% ширины контейнера */
+    margin-bottom: 10px;
+  }

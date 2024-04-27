@@ -1,0 +1,48 @@
+.twoHalves {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+}
+
+.twoHalves.large {
+  width: initial;
+  margin: 0;
+  padding: 0;
+  margin-left: 0;
+  margin-bottom: 100px;
+}
+
+.half {
+  width: calc(40vw - 20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.horizontal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.centeredHeading {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2rem;
+}
+
+.circleImg {
+    margin-right: 20px;
+    padding: 20px;
+    border: 3px solid #efefef;
+    border-radius: 50%;
+}
+
+.link {
+  color: #3d8584;
+}

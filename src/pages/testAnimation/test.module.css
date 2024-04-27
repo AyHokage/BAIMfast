@@ -1,0 +1,16 @@
+.animatedObject {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f;
+    animation: spin 1s linear;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

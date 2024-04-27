@@ -1,0 +1,21 @@
+.textAndImg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 100px 10%;
+  font-size: 1.5rem;
+}
+
+.text {
+  width: 60%;
+}
+
+.img {
+  width: inherit;
+  align-self: flex-end;
+}
+
+.heading {
+  margin: 20px 0;
+}
