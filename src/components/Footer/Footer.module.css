@@ -1,0 +1,53 @@
+.threeCols {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1.2rem;
+  }
+
+  .heading {
+    margin-bottom: 20px; 
+  }
+
+  .map {
+    width: calc(100% - 10px);
+  }
+
+  .contact, .media {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+  }
+
+  .qr {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+  }
+
+  #map {
+    height: 200px;
+    width: calc(100% - 10px);
+  }
+
+  .p {
+    width: 400px;
+  }
+
+  .footer {
+    border: 1px solid #3d8584;
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #3d8584;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2rem;
+  }
+
+  .copyright {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.2rem;
+  }

@@ -1,0 +1,58 @@
+.horizontal {
+  display: flex;
+  margin: 20px;
+  width: 100%;
+  font-size: 1.1rem;
+  border: 3px solid #eaebef;
+  border-radius: 16px;
+  padding: 20px;
+  color: #252525;
+  font-weight: 700px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  width: 200px;
+  padding: 10px 0;
+  margin: 20px 0;
+  background-color: #eaebef;
+  color: #252525; 
+  font-weight: 700;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.imgContainer {
+  border-radius: 15px;
+  background-color: #eaebef;
+  height: 220px;
+  min-width: 280px;
+}
+
+.productContent {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.productTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  width: 80%;
+}
+
+.desc {
+  word-wrap: break-word; /* позволяет тексту переноситься на новую строку, если он не помещается */
+  overflow: hidden; /* скрывает текст, который не помещается в контейнер */
+  max-width: 100%; /* ограничивает ширину текста до 100% ширины контейнера */
+}
+
+
+
+

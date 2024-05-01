@@ -1,0 +1,28 @@
+.desc {
+    border: 6px solid #eaebef;
+    border-radius: 15px;
+    margin: 50px 6%;
+    width: 88%;
+    color: #3d8584;
+    font-size: 2rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.ico {
+    font-size: 3rem;
+    margin-right: 20px;
+}
+
+.feedback {
+    margin: 20px;
+}

@@ -1,0 +1,89 @@
+/* .rating {
+    cursor: pointer;
+  }
+  
+  .card {
+    display: flex;
+    background-color: rgb(150, 44, 44);
+    padding: 0.8rem;
+  }
+  
+  .rating-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.4rem 0.8rem;
+  } */
+  
+  .rating {
+    background-color: #6a6a6a;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .ratingForm {
+    display: flex;
+  }
+  
+  .svg {
+    color: white;
+    font-size: 3rem;
+    margin: 0.2rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .selected {
+    color: #e7f84c;
+    font-size: 3rem;
+    margin: 0.2rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  /* .rating-form-2 svg {
+    margin: 0.5rem;
+  } */
+  
+  #radios label {
+    position: relative;
+  }
+  
+  .super-happy, .input {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .input  + .svg {
+    transition: all 0.2s;
+  }
+  
+  /* .super-happy[class="super-happy"]:hover + svg,
+  .super-happy[class="super-happy"]:checked + svg,
+  .super-happy[class="super-happy"]:focus + svg {
+    fill: rgb(0, 204, 79);
+    transition: 1.5s;
+  }
+  
+  .neutral[class="neutral"]:hover + svg,
+  .neutral[class="neutral"]:checked + svg,
+  .neutral[class="neutral"]:focus + svg {
+    fill: rgb(232, 214, 0);
+    transition: 1.5s;
+  }
+  
+  .sad[class="sad"]:hover + svg,
+  .sad[class="sad"]:checked + svg,
+  .sad[class="sad"]:focus + svg {
+    fill: rgb(239, 42, 16);
+    transition: 1.5s;
+  } */
+  
+  
+  

@@ -1,0 +1,199 @@
+.btn {
+  width: 112px;
+  height: 112px;
+  z-index: 0.9;
+  background-color: #66d3d1;
+  top: 210px;
+  color: white;
+  font-size: 1.5rem;
+  left: calc(50vw - 55px);
+  animation: heartBeat 0.75s alternate infinite;
+}
+
+.circle {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.xs, .s, .m, .l, .xl {
+    box-shadow: rgb(102, 211, 209,0.5) 0px 25px 60px;
+}
+
+.xs {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    z-index: 0.8;
+    background-color: rgb(102, 211, 209,0.5);
+    top: 182px;
+    left: calc(50vw - 80px);
+    border-radius: 50%;
+    animation: animateXS 1.5s infinite 4.5s;
+    opacity: 0;
+}
+
+.s {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 0.8;
+    background-color: rgb(102, 211, 209,0.5);
+    top: 162px;
+    left: calc(50vw - 100px);
+    border-radius: 50%;
+    animation: animateS 1.5s infinite 4.5s;
+    opacity: 0;
+}
+
+.m {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    z-index: 0.8;
+    background-color: rgba(119, 245, 243, 0.1);
+    top: 142px;
+    left: calc(50vw - 120px);
+    border-radius: 50%;
+    animation: animateM 1.5s infinite 4.5s;
+    opacity: 0;
+}
+
+.l {
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    z-index: 0.8;
+    background-color: rgba(119, 245, 243, 0.1);
+    top: 122px;
+    left: calc(50vw - 140px);
+    border-radius: 50%;
+    animation: animateL 1.5s infinite 4.5s;
+    opacity: 0;
+}
+
+.xl {
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    z-index: 0.8;
+    background-color: rgba(119, 245, 243, 0.1);
+    top: 102px;
+    left: calc(50vw - 160px);
+    border-radius: 50%;
+    animation: animateXL 1.5s infinite 4.5s;
+    opacity: 0;
+}
+
+.phone {
+    animation: beat 0.75s infinite alternate;
+    font-size: 2.5rem;
+}
+
+@keyframes beat {
+    0% {
+        font-size: 2rem;
+    }
+    100% {
+        font-size: 2.5rem;
+    }
+}
+
+
+@keyframes heartBeat {
+    0% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes animateXS {
+    0% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 0;
+    }
+    16% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animateS {
+    0% {
+        opacity: 0;
+    }
+    31% {
+        opacity: 0;
+    }
+    32% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes animateM {
+    0% {
+        opacity: 0;
+    }
+    47% {
+        opacity: 0;
+    }
+    48% {
+        opacity: 1;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes animateL {
+    0% {
+        opacity: 0;
+    }
+    63% {
+        opacity: 0;
+    }
+    64% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animateXL {
+    0% {
+        opacity: 0;
+    }
+    79% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.center {
+    width: 124px;
+    height: 124px;
+    background-color: white;
+    position: absolute;
+    z-index: 0.9;
+    border: 1px solid transparent;
+    top: 200px;
+    left: calc(50vw - 62px);
+  }

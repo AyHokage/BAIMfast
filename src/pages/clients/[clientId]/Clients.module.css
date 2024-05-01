@@ -1,0 +1,37 @@
+.desc {
+    border: 6px solid #eaebef;
+    border-radius: 15px;
+    margin: 16px;
+    display: flex;
+    width: 88%;
+    margin: 20px 6%;
+    justify-content: space-between;
+    color: #252525;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.logo {
+    width: 500px;
+    height: auto;
+    margin: 10px;
+}
+
+.text {
+    width: calc(100% - 550px);
+    padding: 20px;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+
+
+.contacts {
+    background-color: #eaebef;
+    border-radius: 0 10px 10px 0;
+    padding: 20px;
+    background-color: #eaebef;
+    min-width: 180px;
+}
